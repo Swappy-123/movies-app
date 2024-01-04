@@ -1,0 +1,149 @@
+.login-form-bg-container {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 32px;
+}
+
+@media screen and (min-widht: 768px) {
+  .login-form-bg-container {
+    background-image: url('https://res.cloudinary.com/dc2b69ycq/image/upload/v1669698542/Movies%20App/netfilx_bg_vhdeeq.png');
+    background-size: cover;
+    padding-top: 48px;
+  }
+}
+
+.website-logo-image-container {
+  align-self: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo-image-container {
+    display: block;
+    margin-left: 132px;
+    margin-bottom: 30px;
+  }
+}
+
+.website-logo {
+  width: 70px;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo {
+    width: 140px;
+  }
+}
+
+.login-form-container {
+  background-color: inherit;
+  width: 100%;
+  margin-top: 60px;
+  align-self: center;
+  border-radius: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .login-form-container {
+    height: 440px;
+    width: 460px;
+    padding: 48px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #0c0b10;
+    opacity: 0.5;
+    outline: 2px solid #fff;
+  }
+}
+
+.login-title {
+  font-size: 34px;
+  color: white;
+  font-family: 'Roboto';
+  font-weight: bold;
+  align-self: center;
+  margin-top: 40px;
+}
+
+.label {
+  font-size: 13px;
+  color: white;
+  align-self: flex-start;
+  top: 0px;
+  left: 0px;
+}
+
+.input-field {
+  height: 40px;
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-left: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background: #333333;
+  color: #e2e8f0;
+  border: 0px;
+  outline: 1px solid rgb(212, 211, 211);
+}
+
+@media screen and (min-width: 768px) {
+  .input-field {
+    width: 360px;
+  }
+}
+
+.error-msg {
+  color: red;
+  font-size: 13px;
+  font-family: 'Roboto';
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.login-btn {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .login-btn {
+    display: block;
+    height: 40px;
+    width: 360px;
+    border: none;
+    border-radius: 12px;
+    background: #e50914;
+    color: wheat;
+    font-size: 20px;
+    margin-top: 10px;
+    outline: none;
+    cursor: pointer;
+  }
+}
+
+.sign-in-btn {
+  display: block;
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  background: #e50914;
+  color: wheat;
+  font-size: 20px;
+  margin-top: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .sign-in-btn {
+    display: none;
+  }
+}

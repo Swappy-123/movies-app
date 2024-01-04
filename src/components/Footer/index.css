@@ -1,0 +1,31 @@
+.footer-bg {
+  background-color: #131313;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+  margin: 25px;
+  color: aliceblue;
+}
+
+.footer-para {
+  color: crimson;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+ 
+}

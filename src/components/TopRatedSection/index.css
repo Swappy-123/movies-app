@@ -1,0 +1,31 @@
+.failure-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-image {
+  height: 400px;
+  width: 450px;
+}
+
+.failure-title {
+  color: white;
+  font-size: 20px;
+}
+
+.failure-button {
+  height: 40px;
+  width: 25vh;
+  color: white;
+  background-color: black;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  background-color: #131313;
+}
